@@ -1,0 +1,52 @@
+{
+  "name": "nodeapp",
+  "version": "1.0.0",
+  "description": "messing with node and nextjs",
+  "main": "server.js",
+  "scripts": {
+    "dev":"node ./server.js",
+    "test": "jest",
+    "lint": "tslint --projext ./",
+    "commit": "npm run lint && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenburnsy/nodeApp.git"
+  },
+  "keywords": [
+    "nextjs",
+    "node"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephenburnsy/nodeApp/issues"
+  },
+  "homepage": "https://github.com/stephenburnsy/nodeApp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "next": "^10.0.8",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.10.8",
+    "@types/jest": "^26.0.20",
+    "@types/next": "^9.0.0",
+    "@types/node": "^14.14.33",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.2",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/react-test-renderer": "^17.0.1",
+    "cucumber": "^7.0.0-rc.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "jest": "^26.6.3",
+    "jest-cucumber": "^3.0.1",
+    "jest-html-reporter": "^3.3.0",
+    "react-test-renderer": "^17.0.1",
+    "tslint": "^6.1.3",
+    "typescript": "^4.2.3"
+  }
+}
